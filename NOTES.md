@@ -1,17 +1,9 @@
-The first release of MySteps, a free step counter and health tracker for Android.
+MySteps 1.0.1: a tidier Health page.
 
-- Steps counted all day by your phone's step sensor, with distance, calories, active minutes and floors
-- Timed walks, with an optional GPS route outline
-- Trends by day, week, month and year, with records
-- Water, weight, blood pressure, heart rate and sleep
-- An offline food diary with 147,689 UK foods and products, spelling help and barcode scanning
-- Fair streaks and 82 badges
-- Fifteen journeys around the UK and the world
-- Reminders with quiet hours, and eight home-screen widgets
-- A monthly PDF report, backup with Undo, and Health Connect
-- No adverts and no account
+- "Not logged" on the Health page no longer runs off the edge or overlaps the text below it, and the cards are the same size in each row
+- Text in switch buttons and Today's small cards now fits on phones with larger text
 
-Needs Android 8 or later. Download `MySteps.apk` below and open it to install.
+Install it over the version you have: your records and settings are kept.
 
 `MySteps-food-list.zip` is the food list inside the app, offered under the Open Database Licence (product data © Open Food Facts contributors).
 
