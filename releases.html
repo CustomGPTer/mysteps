@@ -4,84 +4,77 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MySteps release notes</title>
-<meta name="description" content="What is new in each version of MySteps, the free step counter for Android, with the download for the latest version, 1.0.1.">
+<meta name="description" content="What changed in each version of MySteps, with the file size and checksum to check your download.">
 <meta name="author" content="Jonathan Jackson">
 <link rel="canonical" href="https://customgpter.github.io/mysteps/releases.html">
 <meta name="theme-color" content="#f4f1ec" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#121211" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#121311" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MySteps">
 <meta property="og:title" content="MySteps release notes">
-<meta property="og:description" content="What is new in each version of MySteps, the free step counter for Android, with the download for the latest version, 1.0.1.">
+<meta property="og:description" content="What changed in each version of MySteps, with the file size and checksum to check your download.">
 <meta property="og:url" content="https://customgpter.github.io/mysteps/releases.html">
 <meta property="og:image" content="https://customgpter.github.io/mysteps/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Two MySteps screens, Today and Food, beside the MySteps name">
+<meta property="og:image:alt" content="MySteps&#x27; Today screen with 5,880 of 8,000 steps in the day&#x27;s ring">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<link rel="preload" href="assets/fonts/literata-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/literata-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/site.css?v=1">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+<link rel="preload" href="./assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./assets/site.css?v=1">
+<link rel="stylesheet" href="./assets/house.css?v=1">
+<link rel="stylesheet" href="./assets/apps-list.css?v=1">
+<script src="./assets/apps-list.js?v=1" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead">
 <div class="wrap">
-<a class="brand" href="./" aria-label="MySteps home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><linearGradient id="ms-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3EEE5"/><stop offset="1" stop-color="#E2DACC"/></linearGradient></defs><rect width="108" height="108" rx="24" fill="url(#ms-tile)"/><g transform="translate(54 54) scale(1.25) translate(-54 -52)" fill="none" stroke="#4F6E54" stroke-linecap="round" stroke-linejoin="round"><circle cx="57" cy="30" r="5.2" fill="#4F6E54" stroke="none"/><path d="M55 40 51 57" stroke-width="6.2"/><path d="M54.6 42.5 61.5 49.5 67 51" stroke-width="5"/><path d="M54.6 42.5 46.5 47.5 43.5 54" stroke-width="5" stroke-opacity=".55"/><path d="M51 57 58.5 66 60 77" stroke-width="5.6"/><path d="M51 57 46.5 67 40 74.5" stroke-width="5.6" stroke-opacity=".55"/></g></svg><span>MySteps</span></a>
-<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="compare.html">Compare</a></li><li><a href="releases.html" aria-current="page">Releases</a></li><li><a class="more-apps" href="more-apps.html"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="terms.html">Terms</a></li><li><a href="licences.html">Licences</a></li></ul></nav>
+<a class="brand" href="./" aria-label="MySteps home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><linearGradient id="G" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3EEE5"/><stop offset="1" stop-color="#E2DACC"/></linearGradient></defs><rect width="108" height="108" rx="24" fill="url(#G)"/><g transform="translate(54 54) scale(1.25) translate(-54 -52)" fill="none" stroke="#4F6E54" stroke-linecap="round" stroke-linejoin="round"><circle cx="57" cy="30" r="5.2" fill="#4F6E54" stroke="none"/><path d="M55 40 51 57" stroke-width="6.2"/><path d="M54.6 42.5 61.5 49.5 67 51" stroke-width="5"/><path d="M54.6 42.5 46.5 47.5 43.5 54" stroke-width="5" stroke-opacity=".55"/><path d="M51 57 58.5 66 60 77" stroke-width="5.6"/><path d="M51 57 46.5 67 40 74.5" stroke-width="5.6" stroke-opacity=".55"/></g></svg><span>MySteps</span></a>
+<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="./compare.html">Compare</a></li><li><a href="./releases.html" aria-current="page">Releases</a></li><li><a class="more-apps" href="./more-apps.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li></ul></nav>
+<a class="button small" href="https://github.com/CustomGPTer/mysteps/releases/latest/download/MySteps.apk"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download</a>
 </div>
 </header>
 <main id="main" class="doc">
 <div class="wrap">
 <div class="measure">
 <h1>Release notes</h1>
-<p class="lede">What was added, improved and fixed in each version of MySteps, newest first. The current version is 1.0.1.</p>
-<div class="get">
-<a class="button" href="https://github.com/CustomGPTer/mysteps/releases/latest/download/MySteps.apk">Download the latest version</a>
-<p class="facts">Version 1.0.1. Android app file, 17.2 MB. Android 8 or later. Free.</p>
-<p class="facts">Chrome may say the file might be harmful. It shows this for app files that don't come from Google Play. Choose Download anyway. To be sure of the file, see <a href="#checking">Checking your download</a>.</p>
-</div>
-<nav class="contents" aria-label="Versions"><strong>Versions</strong><ul><li><a href="#v1-0-1">1.0.1&ensp;Tidier Health page</a></li><li><a href="#v1-0-0">1.0.0&ensp;First release</a></li></ul></nav>
-
-<article class="release" id="v1-0-1">
-<p class="ver">Version 1.0.1</p>
-<h2>Tidier Health page</h2>
-<p class="when"><span class="tag">Latest</span>Released 21 November 2026</p>
-<h3>Fixed</h3>
-<ul><li>On the Health page, &ldquo;Not logged&rdquo; no longer runs off the edge or overlaps the text below it, and the four cards are now the same size in each row.</li><li>Text in the switch buttons and the small cards on Today now fits on phones with larger text, rather than being cut short.</li></ul>
-</article>
-
-<article class="release" id="v1-0-0">
-<p class="ver">Version 1.0.0</p>
-<h2>First release</h2>
-<p class="when">Released 21 November 2026</p>
-<h3>Added</h3>
-<ul><li>Step counting in the background with your phone&#x27;s step sensor, or from motion on phones without one, carrying on after a restart.</li><li>Today: a goal ring, distance, walking calories, active minutes, floors climbed, an hour-by-hour chart and the week.</li><li>Timed walks with pause and resume, and an optional GPS route drawn as an outline, with no map service.</li><li>Trends for steps, distance, calories, active minutes and floors by day, week, month and year, with records.</li><li>Water with your own cup sizes, weight with a trend line and safe goals, blood pressure with NHS, European or American ranges, heart rate from the camera or typed in, and a sleep log with step insights.</li><li>A food diary with 147,689 foods built in: 2,853 everyday UK foods and 144,836 UK branded products. Search as you type, with spelling help and British and American names.</li><li>Barcode scanning on the phone, your own foods and saved meals and recipes, and a daily calorie target that never goes below a safe level.</li><li>Fair streaks, with one rest day a week, and 82 badges in nine groups from bronze to platinum, with a celebration for each.</li><li>Fifteen journeys, eight around the UK and seven around the world, with real stops and a drawing of the route.</li><li>Nine kinds of reminder with quiet hours, and notifications when you reach your goal or earn a badge.</li><li>Eight home-screen widgets, including water with a one-tap add button.</li><li>A monthly report as a two-page PDF, to share or save.</li><li>Backup to a file, restore with Undo, and a nightly backup to a folder you choose, keeping the newest seven.</li><li>Health Connect: steps from a watch, counted fairly hour by hour, and sharing your records with other health apps.</li><li>Light, dark and automatic themes, and miles or kilometres, stones, pounds or kilograms.</li><li>A banner on Today when a newer version is ready.</li></ul>
-</article>
+<p class="lede">What changed in each version of MySteps. The newest is at the top.</p>
+<section class="release" id="v1.0.1"><h2><span class="ver">Version 1.0.1</span> <span class="when">21 November 2026</span><span class="tag">Latest</span></h2><ul><li><b>Tidier Health page.</b> On the Health page, &ldquo;Not logged&rdquo; no longer runs off the edge or overlaps the text below it, and the four cards are now the same size in each row.</li><li>Text in the switch buttons and the small cards on Today now fits on phones with larger text, rather than being cut short.</li></ul></section>
+<section class="release" id="v1.0.0"><h2><span class="ver">Version 1.0.0</span> <span class="when">21 November 2026</span></h2><ul><li>Step counting in the background with your phone&#x27;s step sensor, or from motion on phones without one, carrying on after a restart.</li><li>Today: a goal ring, distance, walking calories, active minutes, floors climbed, an hour-by-hour chart and the week.</li><li>Timed walks with pause and resume, and an optional GPS route drawn as an outline, with no map service.</li><li>Trends for steps, distance, calories, active minutes and floors by day, week, month and year, with records.</li><li>Water with your own cup sizes, weight with a trend line and safe goals, blood pressure with NHS, European or American ranges, heart rate from the camera or typed in, and a sleep log with step insights.</li><li>A food diary with 147,689 foods built in: 2,853 everyday UK foods and 144,836 UK branded products. Search as you type, with spelling help and British and American names.</li><li>Barcode scanning on the phone, your own foods and saved meals and recipes, and a daily calorie target that never goes below a safe level.</li><li>Fair streaks, with one rest day a week, and 82 badges in nine groups from bronze to platinum, with a celebration for each.</li><li>Fifteen journeys, eight around the UK and seven around the world, with real stops and a drawing of the route.</li><li>Nine kinds of reminder with quiet hours, and notifications when you reach your goal or earn a badge.</li><li>Eight home-screen widgets, including water with a one-tap add button.</li><li>A monthly report as a two-page PDF, to share or save.</li><li>Backup to a file, restore with Undo, and a nightly backup to a folder you choose, keeping the newest seven.</li><li>Health Connect: steps from a watch, counted fairly hour by hour, and sharing your records with other health apps.</li><li>Light, dark and automatic themes, and miles or kilometres, stones, pounds or kilograms.</li><li>A banner on Today when a newer version is ready.</li></ul></section>
 <h2 id="checking">Checking your download</h2>
-<p>The app file for version 1.0.1 has this SHA-256 checksum. If you'd like to be sure the file came from here unchanged, compare it with the one your phone or computer works out.</p>
-<p><code>fed62aade08123acf3e488467d31b483ebb0dcb5ebc4b82a06afdb7232a64b11</code></p>
-<p>To report a problem with a version, <a href="https://github.com/CustomGPTer/mysteps/issues">open an issue on GitHub</a>.</p>
+<p>The file for version 1.0.1 is called <code>MySteps.apk</code>. It is 18 MB (17,992,052 bytes). Its SHA-256 checksum is:</p>
+<p><code class="sum">fed62aade08123acf3e488467d31b483ebb0dcb5ebc4b82a06afdb7232a64b11</code></p>
+<p>On Windows, run <code>certutil -hashfile MySteps.apk SHA256</code> and compare. Every version is signed with the same key, so each one installs over the last and keeps what you have saved.</p>
+<p>Older versions are on the <a href="https://github.com/CustomGPTer/mysteps/releases">GitHub releases page</a>.</p>
 </div>
 </div>
 </main>
 <footer class="colophon">
 <div class="wrap">
 <div>
+<a class="brand" href="./" aria-label="MySteps home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><linearGradient id="G" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3EEE5"/><stop offset="1" stop-color="#E2DACC"/></linearGradient></defs><rect width="108" height="108" rx="24" fill="url(#G)"/><g transform="translate(54 54) scale(1.25) translate(-54 -52)" fill="none" stroke="#4F6E54" stroke-linecap="round" stroke-linejoin="round"><circle cx="57" cy="30" r="5.2" fill="#4F6E54" stroke="none"/><path d="M55 40 51 57" stroke-width="6.2"/><path d="M54.6 42.5 61.5 49.5 67 51" stroke-width="5"/><path d="M54.6 42.5 46.5 47.5 43.5 54" stroke-width="5" stroke-opacity=".55"/><path d="M51 57 58.5 66 60 77" stroke-width="5.6"/><path d="M51 57 46.5 67 40 74.5" stroke-width="5.6" stroke-opacity=".55"/></g></svg><span>MySteps</span></a>
 <p>&copy; 2026 Jonathan Jackson. MySteps is an independent app.</p>
-<p>This site uses no cookies and no tracking. It is set in Literata and Atkinson Hyperlegible.</p>
+<p>This site uses no cookies and no tracking.</p>
+<p>Set in Bricolage Grotesque and Atkinson Hyperlegible.</p>
 </div>
-<nav aria-label="Footer"><ul>
+<nav aria-label="The app"><h2>The app</h2><ul>
 <li><a href="./">Home</a></li>
-<li><a href="compare.html">Compare</a></li>
-<li><a href="releases.html">Release notes</a></li>
-<li><a href="more-apps.html">More apps</a></li>
-<li><a href="privacy.html">Privacy policy</a></li>
-<li><a href="terms.html">Terms of use</a></li>
-<li><a href="licences.html">Licences</a></li>
+<li><a href="./compare.html">Compare</a></li>
+<li><a href="./releases.html">Release notes</a></li>
+
+</ul></nav>
+<nav aria-label="Legal"><h2>Legal</h2><ul>
+<li><a href="./privacy.html">Privacy policy</a></li>
+<li><a href="./terms.html">Terms of use</a></li>
+<li><a href="./licences.html">Licences</a></li>
+</ul></nav>
+<nav aria-label="More"><h2>More</h2><ul>
+<li><a href="./more-apps.html">More apps</a></li>
+<li><a href="https://customgpter.github.io/">All apps</a></li>
 <li><a href="https://github.com/CustomGPTer/mysteps/issues">Contact</a></li>
 </ul></nav>
 </div>
