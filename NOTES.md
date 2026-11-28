@@ -1,7 +1,7 @@
-MySteps 1.0.2 ties the app into TorusApps.com.
+MySteps 1.0.3 fixes steps landing in the wrong hour after the phone restarts or the system closes the app.
 
-- The update check now reads the signed app list on torusapps.com instead of GitHub. When there's a newer version the Today page shows "Update available" and the button opens torusapps.com/mysteps/; nothing downloads inside the app.
-- Settings > About now has Privacy policy (torusapps.com/privacy/), Website (torusapps.com/mysteps/), More apps (torusapps.com) and Email (hello@torusapps.com), and shows "Developed by Jonathan Jackson".
-- Privacy wording updated to say the update check goes to torusapps.com.
+- Steps taken while MySteps wasn't running are now shared out over the hours it missed, instead of all landing in the hour it started again. Steps from before midnight go to the day before.
+- MySteps now starts counting again by itself if the system closes it.
+- These catch-up steps no longer count as active minutes.
 
 Installs over the earlier version and keeps everything.
