@@ -1,10 +1,7 @@
-MySteps 1.0.1: a tidier Health page.
+MySteps 1.0.2 ties the app into TorusApps.com.
 
-- "Not logged" on the Health page no longer runs off the edge or overlaps the text below it, and the cards are the same size in each row
-- Text in switch buttons and Today's small cards now fits on phones with larger text
+- The update check now reads the signed app list on torusapps.com instead of GitHub. When there's a newer version the Today page shows "Update available" and the button opens torusapps.com/mysteps/; nothing downloads inside the app.
+- Settings > About now has Privacy policy (torusapps.com/privacy/), Website (torusapps.com/mysteps/), More apps (torusapps.com) and Email (hello@torusapps.com), and shows "Developed by Jonathan Jackson".
+- Privacy wording updated to say the update check goes to torusapps.com.
 
-Install it over the version you have: your records and settings are kept.
-
-`MySteps-food-list.zip` is the food list inside the app, offered under the Open Database Licence (product data © Open Food Facts contributors).
-
-Full notes: https://customgpter.github.io/mysteps/releases.html
+Installs over the earlier version and keeps everything.
